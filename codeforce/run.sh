@@ -15,7 +15,8 @@ echo '#include <iostream>
 #include <map>
 #include <set>
 #include <queue>
-#include <stack>' > bits/stdc++.h
+#include <stack>
+' > bits/stdc++.h
 
 clang++ "$1" -o ${1%.*}
 
