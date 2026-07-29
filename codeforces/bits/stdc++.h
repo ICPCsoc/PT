@@ -1,14 +1,3 @@
-#!/bin/bash
-
-if [ $# -eq 0 ]; then
-  echo "Usage: $0 <cpp_file>"
-  echo "Example: $0 main.cpp"
-  exit 1
-fi
-
-mkdir -p bits
-
-cat << 'EOF' > bits/stdc++.h
 #include <cassert>
 #include <cctype>
 #include <cerrno>
@@ -34,7 +23,6 @@ cat << 'EOF' > bits/stdc++.h
 #include <cstdbool>
 #include <cstdint>
 #include <ctgmath>
-#include <uchar>
 #include <array>
 #include <bitset>
 #include <deque>
@@ -84,15 +72,4 @@ cat << 'EOF' > bits/stdc++.h
 #include <condition_variable>
 #include <future>
 #include <mutex>
-#include <thread>
-
-EOF
-
-clang++ -I. "$1" -o "${1%.*}"
-
-if [ $? -eq 0 ]; then
-    ./"${1%.*}"
-else
-    echo "Compilation failed!"
-    exit 1
-fi
+#include <thread>   
