@@ -8,17 +8,87 @@ fi
 
 mkdir -p bits
 
-echo '#include <iostream>
-#include <algorithm>
-#include <vector>
-#include <string>
+cat << 'EOF' > bits/stdc++.h
+#include <cassert>
+#include <cctype>
+#include <cerrno>
+#include <cfloat>
+#include <ciso646>
+#include <climits>
+#include <clocale>
+#include <cmath>
+#include <csetjmp>
+#include <csignal>
+#include <cstdarg>
+#include <cstddef>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <ctime>
+#include <cwchar>
+#include <cwctype>
+#include <ccomplex>
+#include <cfenv>
+#include <cinttypes>
+#include <cstdalign>
+#include <cstdbool>
+#include <cstdint>
+#include <ctgmath>
+#include <uchar>
+#include <array>
+#include <bitset>
+#include <deque>
+#include <forward_list>
+#include <list>
 #include <map>
-#include <set>
 #include <queue>
+#include <set>
 #include <stack>
-' > bits/stdc++.h
+#include <unordered_map>
+#include <unordered_set>
+#include <vector>
+#include <fstream>
+#include <iomanip>
+#include <ios>
+#include <iosfwd>
+#include <iostream>
+#include <istream>
+#include <ostream>
+#include <sstream>
+#include <streambuf>
+#include <algorithm>
+#include <chrono>
+#include <complex>
+#include <exception>
+#include <functional>
+#include <initializer_list>
+#include <iterator>
+#include <limits>
+#include <locale>
+#include <memory>
+#include <new>
+#include <numeric>
+#include <random>
+#include <ratio>
+#include <regex>
+#include <stdexcept>
+#include <string>
+#include <system_error>
+#include <tuple>
+#include <typeindex>
+#include <typeinfo>
+#include <type_traits>
+#include <utility>
+#include <valarray>
+#include <atomic>
+#include <condition_variable>
+#include <future>
+#include <mutex>
+#include <thread>
 
-clang++ "$1" -o ${1%.*}
+EOF
+
+clang++ -I. "$1" -o "${1%.*}"
 
 if [ $? -eq 0 ]; then
     ./"${1%.*}"
