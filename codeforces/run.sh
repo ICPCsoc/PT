@@ -81,6 +81,7 @@ echo '#include <cassert>
 #include <atomic>
 #include <condition_variable>
 #include <future>
+#include <unordered_map>
 #include <mutex>
 #include <thread>   ' > bits/stdc++.h
 

@@ -1,5 +1,5 @@
 #include "bits/stdc++.h"
-
+// ảnh -> mei mei _> linh tran
 using namespace std;
 
 int main (void) {
