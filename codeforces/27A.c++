@@ -1,3 +1,12 @@
+/*
+Codeforces 27A - Next Test
+Source: https://codeforces.com/problemset/problem/27/A
+
+Problem statement (paraphrased):
+Given n distinct positive integers used as test indices, print the smallest
+positive integer that is not already present.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

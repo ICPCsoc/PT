@@ -1,3 +1,13 @@
+/*
+Codeforces 155A - I_love_%username%
+Source: https://codeforces.com/problemset/problem/155/A
+
+Problem statement (paraphrased):
+Given a coder's contest scores in chronological order, count performances after
+the first that are strictly higher than every earlier score or strictly lower
+than every earlier score.
+*/
+
 #include "bits/stdc++.h" 
 
 using namespace std;

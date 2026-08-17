@@ -1,3 +1,13 @@
+/*
+Codeforces 13A - Numbers
+Source: https://codeforces.com/problemset/problem/13/A
+
+Problem statement (paraphrased):
+For an integer A, compute the sum of its digits when written in every base
+from 2 through A-1. Find the average of these digit sums and print it as an
+irreducible decimal fraction X/Y. The input satisfies 3 <= A <= 1000.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

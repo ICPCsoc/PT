@@ -1,3 +1,13 @@
+/*
+Codeforces 37A - Towers
+Source: https://codeforces.com/problemset/problem/37/A
+
+Problem statement (paraphrased):
+All n wooden bars must be arranged into the fewest towers. Bars can be placed
+in the same tower only when they have equal lengths. Print the height of the
+tallest resulting tower and the total number of towers.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

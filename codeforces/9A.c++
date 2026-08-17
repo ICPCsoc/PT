@@ -1,3 +1,13 @@
+/*
+Codeforces 9A - Die Roll
+Source: https://codeforces.com/problemset/problem/9/A
+
+Problem statement (paraphrased):
+Yakko and Wakko rolled Y and W on ordinary six-sided dice. Dot now rolls once
+and wins whenever her result is at least both previous results; ties favour
+her. Print her winning probability as an irreducible fraction A/B.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

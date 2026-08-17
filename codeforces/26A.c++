@@ -1,3 +1,12 @@
+/*
+Codeforces 26A - Almost Prime
+Source: https://codeforces.com/problemset/problem/26/A
+
+Problem statement (paraphrased):
+An integer is almost prime when it has exactly two distinct prime divisors.
+Given n (1 <= n <= 3000), count the almost-prime integers from 1 through n.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

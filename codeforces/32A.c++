@@ -1,3 +1,13 @@
+/*
+Codeforces 32A - Reconnaissance
+Source: https://codeforces.com/problemset/problem/32/A
+
+Problem statement (paraphrased):
+Given the heights of n soldiers and a maximum difference d, count ordered
+pairs of distinct soldiers whose absolute height difference is at most d.
+Pairs (i, j) and (j, i) are counted separately.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

@@ -1,3 +1,15 @@
+/*
+Codeforces 39A - C*++ Calculations
+Source: https://codeforces.com/problemset/problem/39/A
+
+Problem statement (paraphrased):
+Given an initial integer a and an expression made from signed terms of the
+form a++, ++a, coefficient*a++, or coefficient*++a, evaluate its largest
+possible value. Every term is evaluated exactly once, but terms may be
+evaluated in any order; prefix and postfix increments have their usual
+effects before all term values are summed.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

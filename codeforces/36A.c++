@@ -1,3 +1,13 @@
+/*
+Codeforces 36A - Extra-terrestrial Intelligence
+Source: https://codeforces.com/problemset/problem/36/A
+
+Problem statement (paraphrased):
+A binary string records whether a signal was received on each of n days and
+contains at least three '1' characters. Print YES if the gaps between every
+pair of consecutive signal days are all equal; otherwise print NO.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

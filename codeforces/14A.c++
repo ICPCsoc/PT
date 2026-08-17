@@ -1,3 +1,13 @@
+/*
+Codeforces 14A - Letter
+Source: https://codeforces.com/problemset/problem/14/A
+
+Problem statement (paraphrased):
+An n by m grid contains shaded '*' cells and unshaded '.' cells, with at
+least one shaded cell. Cut out and print the smallest axis-aligned rectangular
+subgrid that contains every shaded cell.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

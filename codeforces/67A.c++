@@ -1,3 +1,15 @@
+/*
+Codeforces 67A - Partial Teacher
+Source: https://codeforces.com/problemset/problem/67/A
+
+Problem statement (paraphrased):
+n students stand in a row. A string of n-1 symbols describes each adjacent
+marks comparison: L means the left student scored higher, R means the right
+student scored higher, and '=' means equal marks. Give every student at least
+one toffee while respecting all comparisons and minimizing the total. Print
+the number assigned to each student.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

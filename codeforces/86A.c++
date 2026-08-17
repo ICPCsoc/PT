@@ -1,3 +1,13 @@
+/*
+Codeforces 86A - Reflection
+Source: https://codeforces.com/problemset/problem/86/A
+
+Problem statement (paraphrased):
+Define the reflection psi(n) by replacing every decimal digit d with 9-d and
+discarding any resulting leading zeroes. The weight of n is n*psi(n). Given
+an inclusive interval [l,r], print the maximum weight of any number in it.
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

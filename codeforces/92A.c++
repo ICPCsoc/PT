@@ -1,3 +1,14 @@
+/*
+Codeforces 92A - Chips
+Source: https://codeforces.com/problemset/problem/92/A
+
+Problem statement (paraphrased):
+n walruses sit in a circle. Starting at number 1, walrus i must receive i
+chips, then the process repeats from walrus 1. Given m initial chips, stop
+when the current walrus cannot receive the required amount and print the
+number of chips left.
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

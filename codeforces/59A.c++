@@ -1,3 +1,13 @@
+/*
+Codeforces 59A - Word
+Source: https://codeforces.com/problemset/problem/59/A
+
+Problem statement (paraphrased):
+Convert a mixed-case word entirely to the case requiring the fewest changes.
+If it contains more uppercase than lowercase letters, print it in uppercase;
+otherwise, including a tie, print it in lowercase.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

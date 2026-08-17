@@ -1,3 +1,15 @@
+/*
+Codeforces 90A - Cableway
+Source: https://codeforces.com/problemset/problem/90/A
+
+Problem statement (paraphrased):
+Cable cars arrive once per minute in the repeating order red, green, blue,
+starting with red at time 0. Each carries at most two students and reaches
+the top 30 minutes after departure. There are r, g, and b students who will
+board only cars of their respective colours. Print the earliest time by which
+everyone has reached the top.
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

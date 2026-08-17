@@ -1,3 +1,12 @@
+/*
+Codeforces 160A - Twins
+Source: https://codeforces.com/problemset/problem/160/A
+
+Problem statement (paraphrased):
+Given n coin values, choose the fewest coins whose total value is strictly
+greater than the total value of all unchosen coins. Print that minimum count.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

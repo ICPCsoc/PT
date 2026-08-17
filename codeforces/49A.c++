@@ -1,3 +1,13 @@
+/*
+Codeforces 49A - Sleuth
+Source: https://codeforces.com/problemset/problem/49/A
+
+Problem statement (paraphrased):
+Read a question containing letters, spaces, and a final question mark. Ignore
+spaces and punctuation and inspect its last letter without regard to case.
+Print YES if that letter is A, E, I, O, U, or Y; otherwise print NO.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

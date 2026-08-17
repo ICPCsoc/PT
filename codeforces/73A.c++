@@ -1,3 +1,14 @@
+/*
+Codeforces 73A - The Elder Trolls IV: Oblivon
+Source: https://codeforces.com/problemset/problem/73/A
+
+Problem statement (paraphrased):
+A solid x by y by z block consists of unit cells. One strike cuts along a
+grid plane parallel to a face, and because all pieces stay in place, a later
+plane may cut several pieces at once. With at most k strikes, find the maximum
+number of pieces obtainable.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

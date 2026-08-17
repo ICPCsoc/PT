@@ -1,3 +1,14 @@
+/*
+Codeforces 66A - Petya and Java
+Source: https://codeforces.com/problemset/problem/66/A
+
+Problem statement (paraphrased):
+Given a positive integer with up to 100 digits, print the smallest Java type
+from byte, short, int, long, and BigInteger that can store it. Use the usual
+signed upper limits 127, 32767, 2147483647, and 9223372036854775807;
+BigInteger is the fallback.
+*/
+
 #include <iostream>
 #include <string>
 

@@ -1,3 +1,13 @@
+/*
+Codeforces 61A - Ultra-Fast Mathematician
+Source: https://codeforces.com/problemset/problem/61/A
+
+Problem statement (paraphrased):
+Read two binary strings of equal length. For every position, output 1 when
+the two input digits differ and 0 when they are equal. Preserve all leading
+zeroes in the resulting string.
+*/
+
 #include "bits/stdc++.h" 
 
 using namespace std;

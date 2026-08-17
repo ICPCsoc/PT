@@ -1,3 +1,15 @@
+/*
+Codeforces 72A - Goshtasp, Vishtasp and Eidi
+Source: https://codeforces.com/problemset/problem/72/A
+
+Problem statement (paraphrased):
+A positive integer n is rich if it can be expressed as a sum of distinct
+values, each of which is either 1 or a prime. If no representation exists,
+print 0. Otherwise print the lexicographically greatest valid sequence in
+the equation format illustrated by the statement; sequences are compared as
+numbers and padded with trailing zeroes only while comparing.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

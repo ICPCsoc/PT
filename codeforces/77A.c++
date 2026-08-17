@@ -1,3 +1,15 @@
+/*
+Codeforces 77A - Heroes
+Source: https://codeforces.com/problemset/problem/77/A
+
+Problem statement (paraphrased):
+Assign seven named heroes to three non-empty teams, one for each boss worth
+a, b, and c experience. Every member of a team receives floor(boss XP/team
+size). First minimize the difference between the most and least XP received
+by any hero; among those assignments, maximize the number of directed
+"likes" relations whose endpoints are teammates. Print both optimum values.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

@@ -1,3 +1,15 @@
+/*
+Codeforces 65A - Harry Potter and Three Spells
+Source: https://codeforces.com/problemset/problem/65/A
+
+Problem statement (paraphrased):
+Three repeatable spells convert a grams of sand to b grams of lead, c grams
+of lead to d grams of gold, and e grams of gold to f grams of sand. Starting
+from some finite amount of sand and no lead or gold, determine whether the
+available conversions can produce an arbitrarily large amount of gold. Print
+Ron if they can, otherwise print Hermione.
+*/
+
 #include <iostream>
 
 using namespace std;

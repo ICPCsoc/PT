@@ -1,3 +1,13 @@
+/*
+Codeforces 16A - Flag
+Source: https://codeforces.com/problemset/problem/16/A
+
+Problem statement (paraphrased):
+An n by m flag is described by digits representing colours. A valid striped
+flag has one uniform colour across every row, and any two adjacent rows must
+have different colours. Print YES if the given flag is valid, otherwise NO.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

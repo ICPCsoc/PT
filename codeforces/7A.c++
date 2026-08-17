@@ -1,3 +1,13 @@
+/*
+Codeforces 7A - Kalevitch and Chess
+Source: https://codeforces.com/problemset/problem/7/A
+
+Problem statement (paraphrased):
+An 8 by 8 board starts entirely white. In one stroke, an entire row or column
+may be painted black. Given a reachable target board containing W and B,
+print the minimum number of row and column strokes needed to produce it.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

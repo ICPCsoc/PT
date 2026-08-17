@@ -1,3 +1,13 @@
+/*
+Codeforces 80A - Panoramix's Prediction
+Source: https://codeforces.com/problemset/problem/80/A
+
+Problem statement (paraphrased):
+Given a prime n and a larger integer m, determine whether m is the smallest
+prime strictly greater than n. Print YES if it is the next prime, otherwise
+print NO.
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

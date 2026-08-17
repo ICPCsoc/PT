@@ -1,3 +1,14 @@
+/*
+Codeforces 19A - World Football Cup
+Source: https://codeforces.com/problemset/problem/19/A
+
+Problem statement (paraphrased):
+Given an even number n of football teams and every pairwise match result,
+rank teams by points (3 for a win, 1 for a draw), then goal difference, then
+goals scored; the ranking is guaranteed unambiguous. Select the best n/2
+teams and print their names in lexicographical order, one per line.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

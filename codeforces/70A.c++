@@ -1,3 +1,15 @@
+/*
+Codeforces 70A - Cookies
+Source: https://codeforces.com/problemset/problem/70/A
+
+Problem statement (paraphrased):
+A square 2^n by 2^n box is tiled greedily with the largest fitting cookies.
+A size-k cookie occupies the cells on and above the main diagonal of a k by k
+square. Infinitely many cookies of every size at least 2 are available, but
+none of size 1; cookies cannot overlap, rotate, or flip. Print the number of
+cells left empty modulo 1000003.
+*/
+
 #include <iostream>
 
 using namespace std;

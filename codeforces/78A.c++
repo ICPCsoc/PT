@@ -1,3 +1,13 @@
+/*
+Codeforces 78A - Haiku
+Source: https://codeforces.com/problemset/problem/78/A
+
+Problem statement (paraphrased):
+Read three lines of a poem. Treat each occurrence of a, e, i, o, or u as one
+syllable. Print YES if the three lines contain exactly 5, 7, and 5 syllables
+respectively; otherwise print NO.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

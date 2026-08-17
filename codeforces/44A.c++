@@ -1,3 +1,13 @@
+/*
+Codeforces 44A - Indian Summer
+Source: https://codeforces.com/problemset/problem/44/A
+
+Problem statement (paraphrased):
+Each of n fallen leaves is described by its tree species and colour. Alyona
+keeps a leaf only if she has not already kept one with that exact pair of
+properties. Print the number of distinct (species, colour) pairs.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

@@ -1,3 +1,16 @@
+/*
+Codeforces 95A - Hockey
+Source: https://codeforces.com/problemset/problem/95/A
+
+Problem statement (paraphrased):
+Find every case-insensitive occurrence of any forbidden substring in team
+name w. Every position covered by at least one occurrence must have its letter
+replaced once by a different letter of the same case; uncovered positions
+cannot change. Given a desired lowercase letter, maximize its case-insensitive
+occurrences in the result, breaking ties by lexicographically smallest string.
+New forbidden occurrences formed by replacements are ignored. Print the result.
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

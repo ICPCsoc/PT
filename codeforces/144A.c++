@@ -1,3 +1,14 @@
+/*
+Codeforces 144A - Arrival of the General
+Source: https://codeforces.com/problemset/problem/144/A
+
+Problem statement (paraphrased):
+Soldiers stand in a line with given heights. One operation swaps two adjacent
+soldiers. Find the minimum operations needed to place a maximum-height soldier
+first and a minimum-height soldier last; the order of everyone else does not
+matter.
+*/
+
 #include "bits/stdc++.h"
 using namespace std;
 

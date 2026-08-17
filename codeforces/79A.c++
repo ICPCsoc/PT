@@ -1,3 +1,14 @@
+/*
+Codeforces 79A - Bus Game
+Source: https://codeforces.com/problemset/problem/79/A
+
+Problem statement (paraphrased):
+A pile contains x 100-yen coins and y 10-yen coins. Ciel and Hanako alternate,
+starting with Ciel, and must take exactly 220 yen. Ciel chooses a valid payment
+using as many 100-yen coins as possible; Hanako chooses one using as many
+10-yen coins as possible. A player unable to pay loses. Print the winner.
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

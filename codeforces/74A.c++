@@ -1,3 +1,13 @@
+/*
+Codeforces 74A - Room Leader
+Source: https://codeforces.com/problemset/problem/74/A
+
+Problem statement (paraphrased):
+For each contestant, total the five problem scores, add 100 points per
+successful hack, and subtract 50 per unsuccessful hack. Exactly one contestant
+has the maximum total. Print that contestant's handle.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

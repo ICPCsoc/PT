@@ -1,3 +1,14 @@
+/*
+Codeforces 82A - Double Cola
+Source: https://codeforces.com/problemset/problem/82/A
+
+Problem statement (paraphrased):
+Sheldon, Leonard, Penny, Rajesh, and Howard initially stand in that order in
+a queue. Each person who drinks a cola leaves the front and places two copies
+of their name at the back. Given n, print the name of the person who drinks
+the n-th cola.
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

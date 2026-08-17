@@ -1,3 +1,13 @@
+/*
+Codeforces 48A - Rock-paper-scissors
+Source: https://codeforces.com/problemset/problem/48/A
+
+Problem statement (paraphrased):
+Three players F, M, and S each show rock, paper, or scissors. A player wins
+only when their gesture defeats both other gestures. Print that player's
+letter, or '?' if the round has no unique winner.
+*/
+
 #include "bits/stdc++.h"
 //Patricia
 using namespace std;

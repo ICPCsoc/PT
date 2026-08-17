@@ -1,3 +1,13 @@
+/*
+Codeforces 69A - Young Physicist
+Source: https://codeforces.com/problemset/problem/69/A
+
+Problem statement (paraphrased):
+Given n three-dimensional force vectors acting on a point, determine whether
+their vector sum is (0,0,0). Print YES when the body is in equilibrium and
+NO otherwise.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

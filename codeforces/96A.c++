@@ -1,3 +1,13 @@
+/*
+Codeforces 96A - Football
+Source: https://codeforces.com/problemset/problem/96/A
+
+Problem statement (paraphrased):
+A binary string represents football players from two teams. The situation is
+dangerous if at least seven consecutive characters are all 0 or all 1. Print
+YES when such a run exists; otherwise print NO.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

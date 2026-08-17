@@ -1,3 +1,12 @@
+/*
+Codeforces 52A - 123-sequence
+Source: https://codeforces.com/problemset/problem/52/A
+
+Problem statement (paraphrased):
+Given n values, each equal to 1, 2, or 3, replace as few elements as possible
+so that every element becomes equal. Print the minimum number of replacements.
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

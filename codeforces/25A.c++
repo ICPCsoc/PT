@@ -1,3 +1,12 @@
+/*
+Codeforces 25A - IQ Test
+Source: https://codeforces.com/problemset/problem/25/A
+
+Problem statement (paraphrased):
+Among n integers, exactly one has different parity from all the others.
+Print the 1-based position of that exceptional integer.
+*/
+
 #include <iostream>
 
 using namespace std;

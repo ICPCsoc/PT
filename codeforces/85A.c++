@@ -1,3 +1,15 @@
+/*
+Codeforces 85A - Domino
+Source: https://codeforces.com/problemset/problem/85/A
+
+Problem statement (paraphrased):
+Tile a 4 by n board completely with 1 by 2 dominoes so every grid cut between
+adjacent columns crosses at least one domino. If impossible, print -1.
+Otherwise output any four-row lowercase-letter colouring of a valid tiling,
+using at most 26 colours, where the two cells of each domino share a colour
+and distinct side-adjacent dominoes never share one.
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

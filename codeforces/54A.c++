@@ -1,3 +1,14 @@
+/*
+Codeforces 54A - Presents
+Source: https://codeforces.com/problemset/problem/54/A
+
+Problem statement (paraphrased):
+Over the next N days, a present must be received on every listed holiday and
+the gap between consecutive presents may never exceed K days. A present was
+already received on day 0. Print the minimum possible number of presents
+received during days 1 through N.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

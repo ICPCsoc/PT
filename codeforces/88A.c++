@@ -1,3 +1,14 @@
+/*
+Codeforces 88A - Chord
+Source: https://codeforces.com/problemset/problem/88/A
+
+Problem statement (paraphrased):
+The twelve notes C, C#, D, D#, E, F, F#, G, G#, A, B, H form a cycle. Given
+three notes, classify their unordered triad. It is major if some cyclic order
+has gaps of 4 then 3 semitones, minor if the gaps are 3 then 4, and strange
+otherwise. Print the corresponding word.
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

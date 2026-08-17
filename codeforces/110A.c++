@@ -1,3 +1,13 @@
+/*
+Codeforces 110A - Nearly Lucky Number
+Source: https://codeforces.com/problemset/problem/110/A
+
+Problem statement (paraphrased):
+Given an integer n, count how many of its decimal digits are 4 or 7. Print YES
+if that count itself is a positive number consisting only of digits 4 and 7;
+otherwise print NO.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

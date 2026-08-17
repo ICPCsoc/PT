@@ -1,3 +1,13 @@
+/*
+Codeforces 75A - Life Without Zeros
+Source: https://codeforces.com/problemset/problem/75/A
+
+Problem statement (paraphrased):
+Given positive integers a and b, let c = a + b. Remove every decimal zero
+from a, b, and c, then interpret the remaining digits as integers. Print YES
+if the modified a plus modified b equals modified c; otherwise print NO.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

@@ -1,3 +1,15 @@
+/*
+Codeforces 21A - Jabber ID
+Source: https://codeforces.com/problemset/problem/21/A
+
+Problem statement (paraphrased):
+Check whether a string is a valid Jabber ID of the form username@hostname
+with an optional /resource. Usernames and resources contain 1 to 16 letters,
+digits, or underscores. A hostname is 1 to 32 characters and consists of
+dot-separated non-empty parts, each obeying the same 1-to-16 character rule.
+Print YES for a valid ID and NO otherwise.
+*/
+
 #include "bits/stdc++.h"
 using namespace std;
 

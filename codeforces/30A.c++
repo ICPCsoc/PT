@@ -1,3 +1,12 @@
+/*
+Codeforces 30A - Accounting
+Source: https://codeforces.com/problemset/problem/30/A
+
+Problem statement (paraphrased):
+Given integers A, B, and n, find any integer X satisfying A * X^n = B.
+X may be negative or zero. If no integer solution exists, print No solution.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

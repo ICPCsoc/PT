@@ -1,3 +1,13 @@
+/*
+Codeforces 57A - Square Earth?
+Source: https://codeforces.com/problemset/problem/57/A
+
+Problem statement (paraphrased):
+Two points lie on the boundary of a square with side n and corners (0,0),
+(n,0), (0,n), and (n,n). Travel is allowed only along the square's sides.
+Print the length of the shorter boundary path between the two points.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

@@ -1,3 +1,17 @@
+/*
+Codeforces 28A - Bender Problem
+Source: https://codeforces.com/problemset/problem/28/A
+
+Problem statement (paraphrased):
+n even-numbered nails define an axis-aligned closed polyline in their given
+order. Each available rod may be folded once at 90 degrees, attached by its
+fold to an unused nail, and have its ends attached to that nail's two
+neighbours; a rod must have the required total length and cannot be reused.
+Determine whether rods can be assigned to alternating nails so the picture
+is constructed. Print NO if impossible; otherwise print YES and, for every
+nail, its rod index or -1. Any valid assignment is accepted.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

@@ -1,3 +1,13 @@
+/*
+Codeforces 94A - Restoring Password
+Source: https://codeforces.com/problemset/problem/94/A
+
+Problem statement (paraphrased):
+An 80-bit string encodes an eight-digit password, with each consecutive block
+of 10 bits representing one digit. The next ten input strings give the
+distinct 10-bit codes for digits 0 through 9. Decode and print the password.
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

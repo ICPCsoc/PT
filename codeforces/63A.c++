@@ -1,3 +1,13 @@
+/*
+Codeforces 63A - Sinking Ship
+Source: https://codeforces.com/problemset/problem/63/A
+
+Problem statement (paraphrased):
+Evacuate n named crew members by status priority: rats first, then women and
+children together, then men, and the captain last. Within the same priority,
+preserve the original queue order. Print the names in evacuation order.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

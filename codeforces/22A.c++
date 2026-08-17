@@ -1,3 +1,12 @@
+/*
+Codeforces 22A - Second Order Statistics
+Source: https://codeforces.com/problemset/problem/22/A
+
+Problem statement (paraphrased):
+Given n integers, find the smallest value that is strictly greater than the
+minimum value. Print that value, or print NO if no such value exists.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

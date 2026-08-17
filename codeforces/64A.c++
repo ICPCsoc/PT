@@ -1,3 +1,12 @@
+/*
+Codeforces 64A - Factorial
+Source: https://codeforces.com/problemset/problem/64/A
+
+Problem statement (paraphrased):
+Given an integer n from 1 to 10, print n factorial, the product of all
+integers from 1 through n.
+*/
+
 #include <iostream>
 
 using namespace std;

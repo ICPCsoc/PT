@@ -1,3 +1,13 @@
+/*
+Codeforces 17A - Noldbach Problem
+Source: https://codeforces.com/problemset/problem/17/A
+
+Problem statement (paraphrased):
+For given n and k, consider primes not exceeding n that can be written as
+p_i + p_(i+1) + 1, where p_i and p_(i+1) are consecutive primes. Print YES
+if at least k primes have this property; otherwise print NO.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

@@ -1,3 +1,15 @@
+/*
+Codeforces 2A - Winner
+Source: https://codeforces.com/problemset/problem/2/A
+
+Problem statement (paraphrased):
+A game consists of n chronological rounds. Each round gives a named player
+an integer score change, which may be negative. The winner must have the
+largest total score after all rounds. If several players share that final
+maximum, the winner is the first among them whose running score reached or
+exceeded that maximum. Read all rounds and print the winner's name.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

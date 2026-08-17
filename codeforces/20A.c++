@@ -1,3 +1,14 @@
+/*
+Codeforces 20A - BerOS File System
+Source: https://codeforces.com/problemset/problem/20/A
+
+Problem statement (paraphrased):
+A directory path starts with '/' and may contain repeated slash characters.
+Normalize it by replacing every consecutive group of slashes with one slash
+and removing a trailing slash unless the path represents the root directory.
+Print the normalized path.
+*/
+
 #include "bits/stdc++.h"
 using namespace std;
 

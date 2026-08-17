@@ -1,3 +1,14 @@
+/*
+Codeforces 51A - Cheaterius's Problem
+Source: https://codeforces.com/problemset/problem/51/A
+
+Problem statement (paraphrased):
+Each of n amulets is a 2 by 2 arrangement of values from 1 to 6. Two amulets
+belong to the same pile when one can be rotated by 0, 90, 180, or 270 degrees
+to match the other; flipping is forbidden. Print the number of distinct
+rotation-equivalence classes.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

@@ -45,9 +45,11 @@
 #include <sstream>
 #include <streambuf>
 #include <algorithm>
+#include <any>
 #include <chrono>
 #include <complex>
 #include <exception>
+#include <filesystem>
 #include <functional>
 #include <initializer_list>
 #include <iterator>
@@ -56,11 +58,13 @@
 #include <memory>
 #include <new>
 #include <numeric>
+#include <optional>
 #include <random>
 #include <ratio>
 #include <regex>
 #include <stdexcept>
 #include <string>
+#include <string_view>
 #include <system_error>
 #include <tuple>
 #include <typeindex>
@@ -68,6 +72,7 @@
 #include <type_traits>
 #include <utility>
 #include <valarray>
+#include <variant>
 #include <atomic>
 #include <condition_variable>
 #include <future>

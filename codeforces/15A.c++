@@ -1,3 +1,14 @@
+/*
+Codeforces 15A - Cottage Village
+Source: https://codeforces.com/problemset/problem/15/A
+
+Problem statement (paraphrased):
+There are n non-overlapping square houses whose centres lie on the x-axis;
+house i has centre xi and side ai. Count the possible centre positions for a
+new axis-aligned square house of side t that does not overlap any existing
+house and touches at least one of them. Its centre may be non-integral.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

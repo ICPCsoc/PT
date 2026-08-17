@@ -1,3 +1,14 @@
+/*
+Codeforces 24A - Ring Road
+Source: https://codeforces.com/problemset/problem/24/A
+
+Problem statement (paraphrased):
+n cities form one undirected ring, but every road currently has one direction
+and a cost to reverse it. Find the minimum total reversal cost needed to make
+all roads point consistently around the ring, so every city can reach every
+other city.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

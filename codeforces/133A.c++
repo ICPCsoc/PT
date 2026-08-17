@@ -1,3 +1,13 @@
+/*
+Codeforces 133A - HQ9+
+Source: https://codeforces.com/problemset/problem/133/A
+
+Problem statement (paraphrased):
+In HQ9+, the instructions H, Q, and 9 produce output, while + only changes an
+accumulator and all other characters are ignored. Given a program, print YES
+if executing it produces any output; otherwise print NO.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

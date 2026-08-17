@@ -1,3 +1,13 @@
+/*
+Codeforces 31A - Worms Evolution
+Source: https://codeforces.com/problemset/problem/31/A
+
+Problem statement (paraphrased):
+Given n worm lengths, find three distinct indices i, j, and k such that
+a[i] = a[j] + a[k]. Equal values at different indices are allowed. Print any
+valid triple, or -1 if no triple exists.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

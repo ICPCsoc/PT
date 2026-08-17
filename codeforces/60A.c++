@@ -1,3 +1,14 @@
+/*
+Codeforces 60A - Where Are My Flakes?
+Source: https://codeforces.com/problemset/problem/60/A
+
+Problem statement (paraphrased):
+One of n numbered boxes contains cereal. Each hint says it is strictly to the
+left or strictly to the right of a specified box, excluding that box itself.
+Print the number of boxes still possible after all hints, or -1 if no box can
+satisfy them.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

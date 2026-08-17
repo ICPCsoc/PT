@@ -1,3 +1,14 @@
+/*
+Codeforces 6A - Triangle
+Source: https://codeforces.com/problemset/problem/6/A
+
+Problem statement (paraphrased):
+Four positive stick lengths are given. Choose any three whole sticks; they
+cannot be cut. Print TRIANGLE if some choice forms a non-degenerate triangle.
+Otherwise print SEGMENT if some choice forms only a degenerate triangle, or
+IMPOSSIBLE if neither kind can be formed.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

@@ -1,3 +1,15 @@
+/*
+Codeforces 76A - Gift
+Source: https://codeforces.com/problemset/problem/76/A
+
+Problem statement (paraphrased):
+An undirected multigraph has a gold requirement gi and silver requirement si
+on every road. A gift containing a gold and b silver coins makes exactly the
+roads with gi <= a and si <= b safe. Gold and silver cost G and S per coin.
+Find the minimum value a*G + b*S that makes all N cities connected by safe
+roads, or print -1 if this is impossible.
+*/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

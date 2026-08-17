@@ -1,3 +1,12 @@
+/*
+Codeforces 148A - Insomnia Cure
+Source: https://codeforces.com/problemset/problem/148/A
+
+Problem statement (paraphrased):
+Among dragons numbered 1 through d, every k-th, l-th, m-th, and n-th dragon is
+damaged. Count how many distinct dragons are damaged at least once.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

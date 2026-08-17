@@ -1,3 +1,12 @@
+/*
+Codeforces 47A - Triangular Numbers
+Source: https://codeforces.com/problemset/problem/47/A
+
+Problem statement (paraphrased):
+Given an integer n from 1 to 500, determine whether n is a triangular number,
+meaning n = k * (k + 1) / 2 for some positive integer k. Print YES or NO.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

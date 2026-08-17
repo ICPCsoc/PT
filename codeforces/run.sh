@@ -6,7 +6,7 @@ if [ $# -eq 0 ]; then
   exit 1
 fi
 
-mkdir -p bits
+mkdir -p bits build
 
 echo '#include <cassert>
 #include <cctype>
@@ -55,9 +55,11 @@ echo '#include <cassert>
 #include <sstream>
 #include <streambuf>
 #include <algorithm>
+#include <any>
 #include <chrono>
 #include <complex>
 #include <exception>
+#include <filesystem>
 #include <functional>
 #include <initializer_list>
 #include <iterator>
@@ -66,11 +68,13 @@ echo '#include <cassert>
 #include <memory>
 #include <new>
 #include <numeric>
+#include <optional>
 #include <random>
 #include <ratio>
 #include <regex>
 #include <stdexcept>
 #include <string>
+#include <string_view>
 #include <system_error>
 #include <tuple>
 #include <typeindex>
@@ -78,17 +82,24 @@ echo '#include <cassert>
 #include <type_traits>
 #include <utility>
 #include <valarray>
+#include <variant>
 #include <atomic>
 #include <condition_variable>
 #include <future>
-#include <unordered_map>
 #include <mutex>
 #include <thread>   ' > bits/stdc++.h
 
-clang++ "$1" -o ${1%.*}
+source_file="$1"
+source_name="$(basename "$source_file")"
+output_file="${source_name%.*}.o"
+
+clang++ -std=c++17 -I. "$source_file" -o "build/$output_file"
 
 if [ $? -eq 0 ]; then
-    ./"${1%.*}"
+    (
+      cd build || exit 1
+      ./"$output_file"
+    )
 else
     echo "Compilation failed!"
     exit 1

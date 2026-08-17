@@ -1,3 +1,13 @@
+/*
+Codeforces 141A - Amusing Joke
+Source: https://codeforces.com/problemset/problem/141/A
+
+Problem statement (paraphrased):
+Given a guest's name, a host's name, and a pile of uppercase letters, determine
+whether the pile is exactly a permutation of all letters from the two names
+combined, with neither missing nor extra letters. Print YES or NO.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

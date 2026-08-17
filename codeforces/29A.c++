@@ -1,3 +1,13 @@
+/*
+Codeforces 29A - Spit Problem
+Source: https://codeforces.com/problemset/problem/29/A
+
+Problem statement (paraphrased):
+Camel i stands at coordinate xi and spits to coordinate xi + di. Determine
+whether there are two camels that spit exactly at each other's positions.
+Print YES if such a pair exists, otherwise NO.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

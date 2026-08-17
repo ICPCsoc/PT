@@ -1,3 +1,14 @@
+/*
+Codeforces 18A - Triangle
+Source: https://codeforces.com/problemset/problem/18/A
+
+Problem statement (paraphrased):
+Three distinct integer-coordinate points form a non-degenerate triangle.
+Print RIGHT if it is right-angled. If it is not, print ALMOST when moving
+exactly one vertex by one unit horizontally or vertically can make it a
+non-degenerate right triangle. Otherwise print NEITHER.
+*/
+
 #include <iostream>
 #include <vector>
 #include <cmath>

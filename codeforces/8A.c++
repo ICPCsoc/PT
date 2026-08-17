@@ -1,3 +1,15 @@
+/*
+Codeforces 8A - Train and Peter
+Source: https://codeforces.com/problemset/problem/8/A
+
+Problem statement (paraphrased):
+A string lists station colours from city A to city B. Peter reports two
+non-empty colour sequences seen during two separate awake periods, in that
+order, without reusing a station. Determine whether both sequences can occur
+in the required order in the original route, its reverse, both, or neither.
+Print forward, backward, both, or fantasy respectively.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

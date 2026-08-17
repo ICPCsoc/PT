@@ -1,3 +1,13 @@
+/*
+Codeforces 35A - Shell Game
+Source: https://codeforces.com/problemset/problem/35/A
+
+Problem statement (paraphrased):
+A ball begins under one of three numbered cups. Three shuffles follow, each
+swapping two specified cup positions. Print the position of the cup containing
+the ball after all three swaps.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

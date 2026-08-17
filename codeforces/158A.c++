@@ -1,3 +1,13 @@
+/*
+Codeforces 158A - Next Round
+Source: https://codeforces.com/problemset/problem/158/A
+
+Problem statement (paraphrased):
+n contestants' scores are given in nonincreasing order. A contestant advances
+when their score is positive and at least the score of the contestant in k-th
+place. Print the number who advance.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

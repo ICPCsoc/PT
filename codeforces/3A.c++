@@ -1,3 +1,14 @@
+/*
+Codeforces 3A - Shortest Path of the King
+Source: https://codeforces.com/problemset/problem/3/A
+
+Problem statement (paraphrased):
+Given the starting and target squares of a king on a standard chessboard,
+move the king to the target using the fewest moves. A move may be horizontal,
+vertical, or diagonal by one square. Print the minimum move count followed
+by any valid sequence using L, R, U, D, LU, LD, RU, and RD.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

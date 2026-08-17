@@ -1,3 +1,13 @@
+/*
+Codeforces 34A - Reconnaissance 2
+Source: https://codeforces.com/problemset/problem/34/A
+
+Problem statement (paraphrased):
+n soldiers stand in a circle in the given order. Find any neighbouring pair
+with the minimum absolute height difference and print their 1-based indices.
+The first and last soldiers are also neighbours.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

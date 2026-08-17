@@ -1,3 +1,15 @@
+/*
+Codeforces 10A - Power Consumption Calculation
+Source: https://codeforces.com/problemset/problem/10/A
+
+Problem statement (paraphrased):
+A laptop consumes P1 power while active. After T1 idle minutes it switches to
+a screensaver consuming P2, and after another T2 idle minutes it sleeps and
+consumes P3. Given n disjoint chronological intervals during which the laptop
+is continuously used, calculate its total consumption from the beginning of
+the first interval through the end of the last one.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

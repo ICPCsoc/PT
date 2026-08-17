@@ -1,3 +1,14 @@
+/*
+Codeforces 93A - Frames
+Source: https://codeforces.com/problemset/problem/93/A
+
+Problem statement (paraphrased):
+n folder icons are laid out left-to-right and top-to-bottom with m icons per
+row. A rectangular selection toggles every icon it covers. Find the minimum
+number of axis-aligned rectangular selections whose combined toggles select
+exactly folders a through b and no others.
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

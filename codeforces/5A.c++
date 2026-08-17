@@ -1,3 +1,15 @@
+/*
+Codeforces 5A - Chat Server's Outgoing Traffic
+Source: https://codeforces.com/problemset/problem/5/A
+
+Problem statement (paraphrased):
+Process up to 100 chat-server commands. A line beginning with '+' adds one
+user, a line beginning with '-' removes one user, and a line of the form
+name:message sends the message to every user currently in the chat. Adding
+or removing users produces no traffic; sending a message of length l to k
+users produces l * k bytes. Print the total outgoing traffic.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

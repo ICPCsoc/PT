@@ -1,3 +1,13 @@
+/*
+Codeforces 116A - Tram
+Source: https://codeforces.com/problemset/problem/116/A
+
+Problem statement (paraphrased):
+At each of n tram stops, a_i passengers leave before b_i passengers enter.
+The tram starts and ends empty. Find the smallest capacity that is never
+exceeded during the trip.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

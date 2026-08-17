@@ -1,3 +1,13 @@
+/*
+Codeforces 43A - Football
+Source: https://codeforces.com/problemset/problem/43/A
+
+Problem statement (paraphrased):
+Each of n lines names the team that scored one goal in a football final.
+There are at most two teams and the final score is not tied. Print the name
+of the team that scored more goals.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

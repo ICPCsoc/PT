@@ -1,3 +1,13 @@
+/*
+Codeforces 45A - Codecraft III
+Source: https://codeforces.com/problemset/problem/45/A
+
+Problem statement (paraphrased):
+Given the English name of the current month and an integer k, determine the
+month that occurs exactly k months later, wrapping around the twelve-month
+calendar as necessary. Print its English name.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

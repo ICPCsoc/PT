@@ -1,3 +1,13 @@
+/*
+Codeforces 11A - Increasing Sequence
+Source: https://codeforces.com/problemset/problem/11/A
+
+Problem statement (paraphrased):
+Given a sequence of n integers and a positive integer d, one move chooses an
+element and adds d to it. Find the minimum number of moves required to make
+the sequence strictly increasing.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

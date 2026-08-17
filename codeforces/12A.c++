@@ -1,3 +1,13 @@
+/*
+Codeforces 12A - Super Agent
+Source: https://codeforces.com/problemset/problem/12/A
+
+Problem statement (paraphrased):
+Read a 3 by 3 pattern whose cells contain X or '.'. Determine whether the
+pattern is centrally symmetric: rotating it by 180 degrees must leave every
+cell unchanged. Print YES if it is symmetric and NO otherwise.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

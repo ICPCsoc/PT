@@ -1,3 +1,12 @@
+/*
+Codeforces 41A - Translation
+Source: https://codeforces.com/problemset/problem/41/A
+
+Problem statement (paraphrased):
+Read two non-empty lowercase words s and t. Print YES if t is exactly s
+written in reverse order; otherwise print NO.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

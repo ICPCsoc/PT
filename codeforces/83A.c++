@@ -1,3 +1,13 @@
+/*
+Codeforces 83A - Magical Array
+Source: https://codeforces.com/problemset/problem/83/A
+
+Problem statement (paraphrased):
+A non-empty contiguous subarray is magical when its minimum equals its
+maximum, so all its elements are equal. Given an array of n integers, print
+the total number of magical subarrays.
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

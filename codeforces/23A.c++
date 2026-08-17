@@ -1,3 +1,13 @@
+/*
+Codeforces 23A - You're Given a String...
+Source: https://codeforces.com/problemset/problem/23/A
+
+Problem statement (paraphrased):
+Given a lowercase string of length at most 100, find the maximum length of a
+substring that occurs at least twice in the string. The two occurrences are
+allowed to overlap. Print that maximum length.
+*/
+
 #include "bits/stdc++.h"
 
 using namespace std;

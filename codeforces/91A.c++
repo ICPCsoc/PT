@@ -1,3 +1,13 @@
+/*
+Codeforces 91A - Newspaper Headline
+Source: https://codeforces.com/problemset/problem/91/A
+
+Problem statement (paraphrased):
+Take some number of copies of string s1, concatenate them, and delete any
+characters while preserving the order of those left. Find the fewest copies
+needed to obtain s2 as a subsequence. Print -1 if it is impossible.
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

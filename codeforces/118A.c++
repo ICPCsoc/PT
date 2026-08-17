@@ -1,3 +1,13 @@
+/*
+Codeforces 118A - String Task
+Source: https://codeforces.com/problemset/problem/118/A
+
+Problem statement (paraphrased):
+Process a Latin-letter string by deleting every occurrence of A, O, Y, E, U,
+or I regardless of case. Convert each remaining consonant to lowercase and
+place a dot before it, then print the resulting string.
+*/
+
 #include "bits/stdc++.h"
 #include <cctype>
 
